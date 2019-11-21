@@ -1,0 +1,15 @@
+CREATE TABLE RottenTomatoes (
+	id SERIAL PRIMARY KEY,
+	film TEXT,
+	year TEXT,
+	Rotten_Tomatoes_Ratings INT
+)
+
+
+CREATE TABLE IMDB (
+	id SERIAL PRIMARY KEY,
+	film TEXT,
+	year TEXT,
+	IMDB_Ratings INT
+
+)
